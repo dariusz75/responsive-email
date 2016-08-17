@@ -1,0 +1,23 @@
+.email-background {
+	background-color: #E7FCFF;
+	padding: 10px;
+}
+
+.email-container {
+	max-width: 500px;
+	background-color: #9BC0FF;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.pre-header {
+	@extend .email-container;
+	background-color: #AFD9FF;
+	color: #506375;
+}
+
+
+img {
+	max-width: 100%;
+}
