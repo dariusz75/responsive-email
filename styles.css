@@ -5,15 +5,42 @@
 .email-container, .pre-header {
   max-width: 500px;
   background-color: #9BC0FF;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  padding: 5px; }
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 5px; }
 
 .pre-header {
   background-color: #AFD9FF;
-  color: #506375; }
+  margin-bottom: 10px;
+  text-align: center; }
 
 img {
   max-width: 100%; }
+
+p {
+  font-size: 16px;
+  text-align: center; }
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+
+.cta {
+  text-align: center;
+  margin: 20px; }
+  .cta a {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #328DEF;
+    color: #FFF;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0;
+    border-radius: 5px; }
+
+.unsubscribe p {
+  color: #328DEF; }
 
 /*# sourceMappingURL=styles.css.map */
